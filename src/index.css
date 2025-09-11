@@ -1,0 +1,32 @@
+/* -------------------Import Tailwind Css----------------- */
+@import "tailwindcss";
+/* ---------------------Import Daisy Ui ------------------ */
+@plugin "daisyui";
+
+/* -------------------Custom Theme----------------- */
+@theme {
+       /* ----------------Fonts--------------- */
+       --font-Rajdhani: "Rajdhani", sans-serif;
+       --font-Rubik: "Rubik", sans-serif;
+       /* ----------------Colors-------------- */
+       --color-red: #FF0003;
+       --color-light-red: #FF494A;
+       --color-pink-red: #FF014F;
+       --color-dark-blue: #1F242E;
+       --color-blue: #007AFF;
+       --color-green: #48A133;
+       --color-black: #000000;
+       --color-nero: #060606;
+       --color-dark-gray-1: #0F0F0F;
+       --color-dark-gray-2: #141414;
+       --color-dark-gray-3: #151515;
+       --color-gray: #9F9F9F;
+       --color-light-gray: #C2C2C2;
+       --color-lighter-gray: #E3E3E3;
+       --color-white: #FFFFFF;
+}
+
+/* -------------------Utility Classes----------------- */
+.section {
+       @apply px-5 md:px-10 lg:px-20 
+}
