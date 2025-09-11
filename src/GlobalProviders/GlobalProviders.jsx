@@ -2,7 +2,9 @@ import { getAuth } from "firebase/auth";
 import { createContext, useState } from "react";
 import app from "../Firebase/Firebase.config";
 
+/* ---------------Create Context APi---------------- */
 export const GlobalContext = createContext(null);
+/* ------------Get Auth From FireBase--------------- */
 const auth = getAuth(app);
 
 const GlobalProviders = ({ children }) => {

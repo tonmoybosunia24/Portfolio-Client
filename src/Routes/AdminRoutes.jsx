@@ -3,6 +3,7 @@ import { GlobalContext } from "../GlobalProviders/GlobalProviders";
 
 const AdminRoutes = ({ children }) => {
 
+       /* ------------Get User And Loading From Context---------- */
        const { user, loading } = useContext(GlobalContext);
 
        if (loading) {
