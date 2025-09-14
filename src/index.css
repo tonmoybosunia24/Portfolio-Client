@@ -16,6 +16,7 @@
        --color-blue: #007AFF;
        --color-green: #48A133;
        --color-black: #000000;
+       --color-soft-black: #FFFFFD0F;
        --color-nero: #060606;
        --color-dark-gray-1: #0F0F0F;
        --color-dark-gray-2: #141414;
@@ -28,5 +29,35 @@
 
 /* -------------------Utility Classes----------------- */
 .section {
-       @apply px-5 md:px-10 lg:px-20
+       @apply px-5 md:px-10 lg:px-20 lg:max-w-screen-2xl mx-auto
+}
+
+/* ---------------------Text Stroke------------------- */
+.text-stroke {
+       -webkit-text-stroke: 1px white;
+}
+
+/* ------------------Hide ScrollBar------------------- */
+html,
+body,
+#root {
+       -ms-overflow-style: none;
+       scrollbar-width: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+#root::-webkit-scrollbar {
+       display: none;
+}
+
+/* Optional stronger fallback if some rule overrides it */
+*::-webkit-scrollbar {
+       width: 0 !important;
+       height: 0 !important;
+}
+
+* {
+       -ms-overflow-style: none !important;
+       scrollbar-width: none !important;
 }
