@@ -1,4 +1,5 @@
 import Header from "../../Shared/Header";
+import Achievements from "../Achievements/Achievements";
 import Services from "../Services/Services";
 import SkillsMarquee from "../SkillsMarquee/SkillsMarquee";
 
@@ -9,6 +10,7 @@ const Home = () => {
                      <Header></Header>
                      <Services></Services>
                      <SkillsMarquee></SkillsMarquee>
+                     <Achievements></Achievements>
               </main>
        );
 };
