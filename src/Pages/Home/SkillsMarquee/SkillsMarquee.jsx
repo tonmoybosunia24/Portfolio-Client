@@ -1,5 +1,5 @@
 import Marquee from "react-fast-marquee";
-import { FaBootstrap, FaChartLine, FaCss3, FaGitAlt, FaGithub, FaGlobeAmericas, FaHtml5, FaNode, FaReact } from "react-icons/fa";
+import { FaBootstrap, FaChartLine, FaCss3, FaGitAlt, FaGithub, FaGlobeAmericas, FaHtml5, FaNode, FaReact, FaTools } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { BiLogoTypescript } from "react-icons/bi";
 import { TbApi, TbBrandFramerMotion, TbBrandRedux, TbBrandThreejs, TbBrandVercel, TbTransform } from "react-icons/tb";
@@ -9,10 +9,13 @@ import { RiNextjsLine } from "react-icons/ri";
 import { SiExpress, SiFirebase, SiMongodb, SiPostman, SiTailwindcss, SiVite } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import { IoLogoFirebase } from "react-icons/io5";
+import SectionTItle from "../../../Components/SectionTItle";
 
 const SkillsMarquee = () => {
        return (
               <section className="section sectionPaddingBottom space-y-3">
+                     {/* ----------------Section Title-------------- */}
+                     <SectionTItle icon={<FaTools />} title={'My Skills'} subTitle={<>A showcase of my knowledge in web development, tools, and libraries that empower me to <br className="hidden lg:block" /> build modern, scalable, and effective solutions.</>}></SectionTItle>
                      {/* ------------------Core Concept Marquee-------------- */}
                      <Marquee pauseOnHover={true} speed={20} gradient={true} gradientColor="#0F0F0F" gradientWidth={50}>
                             <div className="flex gap-5 text-white">

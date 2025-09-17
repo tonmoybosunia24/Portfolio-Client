@@ -1,6 +1,6 @@
 import Navbar from './Navbar';
 import headerBackground from '../../assets/Banner/HeaderBanner.jpg'
-import profileImage from '../../assets/ProfileImage/ProfileImage5.png'
+import profileImage from '../../assets/ProfileImage/ProfileImage.png'
 import { Typewriter } from 'react-simple-typewriter'
 import { FaArrowRight } from 'react-icons/fa';
 import { easeInOut, motion } from "motion/react"

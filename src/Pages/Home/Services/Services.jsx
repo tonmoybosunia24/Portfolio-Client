@@ -3,11 +3,14 @@ import { faBezierCurve } from "@fortawesome/free-solid-svg-icons";
 import { FaRegLightbulb } from "react-icons/fa";
 import { LuPencilRuler } from "react-icons/lu";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import SectionTItle from "../../../Components/SectionTItle";
 
 const Services = () => {
        return (
               /* -------------------Services Section------------------ */
               <section className="section sectionPadding">
+                     {/* ----------------Section Title-------------- */}
+                     <SectionTItle icon={<FaRegLightbulb />} title={'My Services'} subTitle={<>Offering creative, scalable, and efficient solutions in web design, UI/UX, research, and marketing <br className="hidden lg:block" /> to help brands grow digitally.</>}></SectionTItle>
                      {/* ---------------Service Section Container------------- */}
                      <div className="flex flex-col md:flex-row lg:flex-row justify-between items-center gap-5">
                             {/* ----------------Web Design Service--------------- */}

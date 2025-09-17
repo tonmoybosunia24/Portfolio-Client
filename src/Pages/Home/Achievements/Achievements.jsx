@@ -1,10 +1,14 @@
 import CountUp from 'react-countup';
 import { motion } from "motion/react"
+import SectionTItle from '../../../Components/SectionTItle';
+import { FaTrophy } from 'react-icons/fa';
 
 const Achievements = () => {
        return (
               /* --------------------Achievements Section------------------ */
               <section className="section sectionPaddingBottom text-white">
+                     {/* ----------------Section Title-------------- */}
+                     <SectionTItle icon={<FaTrophy />} title={'Achievements'} subTitle={<>A reflection of my journey, highlighting years of experience, completed projects, <br className="hidden lg:block" /> client satisfaction, and valuable growth.</>}></SectionTItle>
                      {/* --------------Achievements Section Container----------- */}
                      <div className="flex flex-col md:flex-row lg:flex-row gap-5">
                             {/* ---------------Achievements Section Left Side-------------- */}
