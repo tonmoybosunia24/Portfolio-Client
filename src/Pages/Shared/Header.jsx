@@ -20,7 +20,7 @@ const Header = () => {
                                    {/* -----------Header Left Description---------- */}
                                    <p className='font-Rubik text-gray'>I’m a passionate Front-End Developer specialized in building modern, responsive, and user-friendly web applications. I love turning ideas into real digital experiences.</p>
                                    {/* -----------Header Left Button---------- */}
-                                   <button className='flex items-center gap-2 font-semibold text-lg bg-pink-red rounded-md px-5 py-2'>View Resume <FaArrowRight className='text-sm' /></button>
+                                   <motion.button initial="initial" whileHover="hover" className="flex justify-center items-center text-center gap-2 font-Rubik bg-pink-red text-white rounded-full text-sm px-7 py-3"><motion.span variants={{ initial: { opacity: 0, x: -20 }, hover: { opacity: 1, x: 15 }, }} transition={{ duration: 0.5, ease: "easeOut" }}><FaArrowRight /></motion.span><motion.span variants={{ initial: { x: -10 }, hover: { x: 10 } }} transition={{ duration: 0.5, ease: 'easeIn' }}>View Resume</motion.span><motion.span variants={{ initial: { opacity: 1, x: -10 }, hover: { opacity: 0, x: 20 } }} transition={{ duration: 0.5, ease: "easeOut" }}><FaArrowRight /></motion.span></motion.button>
                             </div>
                             {/* --------------Header Right Container--------------- */}
                             <div className='flex-1 relative h-full flex flex-col justify-center items-center'>
