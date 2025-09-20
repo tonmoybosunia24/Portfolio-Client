@@ -5,11 +5,16 @@ import './App.css'
 import { RouterProvider } from 'react-router'
 import Routes from './Routes/Routes.jsx'
 import GlobalProviders from './GlobalProviders/GlobalProviders.jsx'
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+
+const queryClient = new QueryClient();
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <GlobalProviders>
-      <RouterProvider router={Routes}></RouterProvider>
-    </GlobalProviders>
+    <QueryClientProvider client={queryClient}>
+      <GlobalProviders>
+        <RouterProvider router={Routes}></RouterProvider>
+      </GlobalProviders>
+    </QueryClientProvider>
   </StrictMode>,
 )

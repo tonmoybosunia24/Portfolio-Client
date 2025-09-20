@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "role": "Software Engineer",
+    "feedback": "This platform completely transformed the way I manage my projects. The interface is intuitive, performance is fast, and the support team is always ready to help. I can now focus more on building instead of struggling with tools.",
+    "image": "https://i.pravatar.cc/100?img=3",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Sarah Smith",
+    "role": "Product Manager",
+    "feedback": "I was amazed by how smooth everything works here. From onboarding my team to managing deadlines, this platform has reduced my workload drastically. The simplicity combined with powerful features is exactly what I needed!",
+    "image": "https://i.pravatar.cc/100?img=5",
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "name": "Michael Brown",
+    "role": "Entrepreneur",
+    "feedback": "Running a business requires reliable tools, and this platform delivered beyond expectations. My productivity doubled, and I can now easily track progress without getting overwhelmed. Definitely worth every penny.",
+    "image": "https://i.pravatar.cc/100?img=8",
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "name": "Emily Johnson",
+    "role": "UX Designer",
+    "feedback": "As a designer, I value clean and user-friendly tools. This platform impressed me with its elegant design and flawless performance. It makes collaboration with my team seamless and enjoyable.",
+    "image": "https://i.pravatar.cc/100?img=12",
+    "rating": 4
+  },
+  {
+    "id": 5,
+    "name": "David Wilson",
+    "role": "Marketing Specialist",
+    "feedback": "Marketing campaigns require precise tracking and fast execution. This platform gave me both, and more. I’ve seen significant improvements in my team’s efficiency since we started using it.",
+    "image": "https://i.pravatar.cc/100?img=15",
+    "rating": 5
+  }
+]

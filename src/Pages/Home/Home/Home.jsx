@@ -5,6 +5,7 @@ import Education from "../Education/Education";
 import Progress from "../Progress/Progress";
 import Services from "../Services/Services";
 import SkillsMarquee from "../SkillsMarquee/SkillsMarquee";
+import Testimonials from "../Testimonials/Testimonials";
 
 const Home = () => {
 
@@ -17,6 +18,7 @@ const Home = () => {
                      <Progress></Progress>
                      <Education></Education>
                      <Contact></Contact>
+                     <Testimonials></Testimonials>
               </main>
        );
 };
